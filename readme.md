@@ -2,22 +2,6 @@
 
 Este projeto demonstra como utilizar o MinIO para armazenamento de arquivos (CSV) em conjunto com o Jupyter Notebook e a biblioteca Pandas para manipulação e análise de dados, tudo orquestrado por Docker Compose.
 
-## Estrutura do Projeto
-
-```
-AIRFLOW/
-├── dados/
-│   └── vendas.csv
-├── notebooks/
-│   └── Demonstracao_pandas.ipynb
-├── docker-compose.yml
-└── gerador_csv
-```
-
-- `dados/`: Contém o arquivo exemplo `vendas.csv` utilizado nos notebooks.
-- `notebooks/`: Notebooks Jupyter para demonstração prática das funções do Pandas.
-- `docker-compose.yml`: Orquestra os serviços do MinIO e Jupyter Notebook.
-- `gerador_csv`: Script ou ferramenta opcional para geração de dados.
 
 ## Como Executar
 
